@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/howdieshell.HOWDIESHELL/Google Drive/Garand Group/QTPI/Literature/Power Supply/Hoffman 2017/PCB/High Frequency High Voltage/HV-pulse-generator.sch</source>
+    <date>1/12/2018 2:39:51 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pulse Generator, 500 V</title>
+        <company>Washington State University</company>
+        <rev/>
+        <date>2016-06-16</date>
+        <source>HV-pulse-generator.sch</source>
+        <comment number="1" value="Peter T.A. Reilly Group"/>
+        <comment number="2" value="Drawn by Nathan M. Hoffman"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q2">
+      <value>FQP3P50</value>
+      <footprint>User_Defined:FQP3P20</footprint>
+      <libsource lib="device" part="Q_PMOS_SDG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761E895</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>FQP13N50</value>
+      <footprint>User_Defined:FQP4N20L</footprint>
+      <libsource lib="device" part="Q_NMOS_SDG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761E947</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>VN0104</value>
+      <footprint>User_Defined:TO92-DGS-VN0104</footprint>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761EA66</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>VP0104</value>
+      <footprint>User_Defined:TO92-DGS-VP0104</footprint>
+      <libsource lib="device" part="Q_PMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761EB32</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.1</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761ED95</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761EF17</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761EFA2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM7171</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="LM7171"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761EBF8</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762216D</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57622173</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM7171</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="LM7171"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57622179</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ICPL2631</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="ICPL2631"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D19A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>365</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D26C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1525</value>
+      <footprint>Documents:TO92-MCP1525</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="MCP1525"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D4C1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D53E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D5F0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D6AA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>365</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762D7BF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762DEBC</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PEM2-S24-S5-S</value>
+      <footprint>User_Defined:DCDC-Conv_CUI_PEM2_DUAL</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="PEM2-S24-S5-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762F404</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762F657</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5762F868</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57630043</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576306B0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763080F</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>VN0104</value>
+      <footprint>User_Defined:TO92-DGS-VN0104</footprint>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631256</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>VP0104</value>
+      <footprint>User_Defined:TO92-DGS-VP0104</footprint>
+      <libsource lib="device" part="Q_PMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763125C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>5.1</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631262</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631268</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763126E</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM7171</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="LM7171"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631274</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763127A</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.01uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631280</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LM7171</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="LM7171"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631286</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ICPL2631</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="ICPL2631"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763128C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>365</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631292</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MCP1525</value>
+      <footprint>Documents:TO92-MCP1525</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="MCP1525"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57631298</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763129E</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312A4</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312AA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>365</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312B0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312B6</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>PEM2-S24-S5-S</value>
+      <footprint>User_Defined:DCDC-Conv_CUI_PEM2_DUAL</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="PEM2-S24-S5-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312BC</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312C2</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312C8</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312D4</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576312DA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>JCJ0824D15</value>
+      <footprint>User_Defined:JCJ0824D15</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="JCJ0824D15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576338EC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57636213</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>User_Defined:C_Tantalum_D3_P2.5</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763778F</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>JCJ0824D15</value>
+      <footprint>User_Defined:JCJ0824D15</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="JCJ0824D15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763A99F</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763AC91</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763BCAD</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763C8F7</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>2.2uF</value>
+      <footprint>User_Defined:C_Tantalum_D3_P2.5</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763CC63</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763DF24</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF</value>
+      <footprint>User_Defined:C_Tantalum_D3_P2.5</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763E02B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>STTH102RL</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57641005</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>STTH102RL</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576413B0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistors_ThroughHole:Resistor_TO-220_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D766C</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.22uF</value>
+      <footprint>User_Defined:ECW-FA2J(10-68)4J</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D832A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.22uF</value>
+      <footprint>User_Defined:ECW-FA2J(10-68)4J</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D8B9D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>50</value>
+      <footprint>Resistors_ThroughHole:Resistor_TO-220_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D8D5B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>50</value>
+      <footprint>Resistors_ThroughHole:Resistor_TO-220_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D9E91</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X03</value>
+      <footprint>User_Defined:Pin_Header_Molex_10-32-1031</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576DB728</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X02</value>
+      <footprint>User_Defined:Pin_Header_Molex_10-32-1021</footprint>
+      <libsource lib="HV-pulse-generator-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576DC865</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>User_Defined:C_Tantalum_D3_P2.5</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57714046</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577142B4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="ICPL2631">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICPL2631</field>
+        <field name="Footprint">DIP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="JCJ0824D15">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">JCJ0824D15</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-Vin" type="power_in"/>
+        <pin num="3" name="-Vin" type="power_in"/>
+        <pin num="9" name="COM" type="passive"/>
+        <pin num="11" name="-Vout" type="power_out"/>
+        <pin num="14" name="+Vout" type="power_out"/>
+        <pin num="16" name="COM" type="passive"/>
+        <pin num="22" name="+Vin" type="power_in"/>
+        <pin num="23" name="+Vin" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="LM7171">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7171</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="MCP1525">
+      <footprints>
+        <fp>SOT-89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1525</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV-pulse-generator-cache" part="PEM2-S24-S5-S">
+      <footprints>
+        <fp>SIP-8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PEM2-S24-S5-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="5" name="0V" type="input"/>
+        <pin num="7" name="+Vo" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_DGS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_SDG">
+      <description>Transistor N-MOSFETwith substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_SDG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_DGS">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_SDG">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_SDG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="HV-pulse-generator-cache">
+      <uri>C:\Users\howdieshell.HOWDIESHELL\Google Drive\Garand Group\QTPI\Literature\Power Supply\Hoffman 2017\PCB\High Frequency High Voltage\HV-pulse-generator-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R7-Pad1)">
+      <node ref="U6" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="3" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="4" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="5" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R6-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J4-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D2-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="20" name="Net-(Q3-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(J2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="25" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="P4" pin="14"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C23-Pad1)">
+      <node ref="U5" pin="4"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="P4" pin="11"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C29" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C18-Pad2)">
+      <node ref="C24" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="P3" pin="5"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="P4" pin="16"/>
+      <node ref="P4" pin="9"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C1-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P2" pin="16"/>
+      <node ref="P1" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="P2" pin="9"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C12-Pad1)">
+      <node ref="P3" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="P2" pin="23"/>
+      <node ref="P2" pin="22"/>
+      <node ref="J3" pin="1"/>
+      <node ref="P4" pin="22"/>
+      <node ref="P4" pin="23"/>
+      <node ref="C30" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C12-Pad2)">
+      <node ref="C28" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C13-Pad2)">
+      <node ref="C15" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="P2" pin="11"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C1-Pad1)">
+      <node ref="P2" pin="14"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
