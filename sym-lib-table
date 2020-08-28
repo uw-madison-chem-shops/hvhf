@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HV-pulse-generator-rescue)(type Legacy)(uri ${KIPRJMOD}/HV-pulse-generator-rescue.lib)(options "")(descr ""))
+)

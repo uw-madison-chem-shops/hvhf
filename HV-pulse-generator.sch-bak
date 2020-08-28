@@ -41,7 +41,7 @@ U 1 1 5762DEBC
 P 1800 1700
 F 0 "J2" H 1800 1850 50  0000 C CNN
 F 1 "Pin1=TTL Pin2=GND" H 1700 1950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1800 1700 50  0001 C CNN
+F 2 "hvhf:Pin_Header_Straight_1x02" H 1800 1700 50  0001 C CNN
 F 3 "" H 1800 1700 50  0000 C CNN
 	1    1800 1700
 	-1   0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 57630043
 P 1250 7050
 F 0 "J3" H 1250 7200 50  0000 C CNN
 F 1 "Pin1=24V Pin2=GND" H 1150 6900 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 7050 50  0001 C CNN
+F 2 "hvhf:Pin_Header_Straight_1x02" H 1250 7050 50  0001 C CNN
 F 3 "" H 1250 7050 50  0000 C CNN
 	1    1250 7050
 	-1   0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 576312B6
 P 1800 4200
 F 0 "J5" H 1800 4350 50  0000 C CNN
 F 1 "Pin1=TTL Pin2=GND" H 1700 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1800 4200 50  0001 C CNN
+F 2 "hvhf:Pin_Header_Straight_1x02" H 1800 4200 50  0001 C CNN
 F 3 "" H 1800 4200 50  0000 C CNN
 	1    1800 4200
 	-1   0    0    -1  
