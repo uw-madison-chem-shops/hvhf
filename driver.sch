@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title "Pulse Generator, 500 V"
-Date "2020-08-28"
+Date "2020-09-04"
 Rev "2.0.0"
 Comp "University of Wisconsin-Madison"
 Comment1 "Blaise Thompson"
@@ -32,20 +32,6 @@ F 2 "hvhf:C_Disc_D3_P2.5" H 2850 6250 50  0001 C CNN
 F 3 "" H 2850 6250 50  0000 C CNN
 	1    2850 6250
 	1    0    0    -1  
-$EndComp
-$Comp
-L HV-pulse-generator-rescue:R R?
-U 1 1 5FA46F64
-P 9300 2750
-AR Path="/5FA46F64" Ref="R?"  Part="1" 
-AR Path="/5F8C1FCE/5FA46F64" Ref="R4"  Part="1" 
-AR Path="/5F874D38/5FA46F64" Ref="R8"  Part="1" 
-F 0 "R8" V 9380 2750 50  0000 C CNN
-F 1 "5.1" V 9300 2750 50  0000 C CNN
-F 2 "hvhf:Resistor_Horizontal_RM15mm" V 9230 2750 50  0001 C CNN
-F 3 "" H 9300 2750 50  0000 C CNN
-	1    9300 2750
-	0    1    1    0   
 $EndComp
 $Comp
 L HV-pulse-generator-rescue:C_Small C?
@@ -215,36 +201,8 @@ F 3 "" H 6750 2250 50  0000 C CNN
 	1    6750 2250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L HV-pulse-generator-rescue:D D?
-U 1 1 5FA46FFA
-P 9300 2450
-AR Path="/5FA46FFA" Ref="D?"  Part="1" 
-AR Path="/5F8C1FCE/5FA46FFA" Ref="D1"  Part="1" 
-AR Path="/5F874D38/5FA46FFA" Ref="D2"  Part="1" 
-F 0 "D2" H 9300 2550 50  0000 C CNN
-F 1 "STTH102RL" H 9300 2350 50  0000 C CNN
-F 2 "hvhf:Diode_DO-41_SOD81_Horizontal_RM10" H 9300 2450 50  0001 C CNN
-F 3 "" H 9300 2450 50  0000 C CNN
-	1    9300 2450
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9450 2750 9550 2750
-Wire Wire Line
-	9050 2450 9050 2750
-Connection ~ 9050 2750
-Wire Wire Line
-	9450 2450 9550 2450
-Wire Wire Line
-	9550 2450 9550 2750
-Connection ~ 9550 2750
 Wire Wire Line
 	1550 6850 1600 6850
-Wire Wire Line
-	9050 2750 9150 2750
-Wire Wire Line
-	9550 2750 9850 2750
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5FA470C7
@@ -252,7 +210,7 @@ P 1600 6850
 AR Path="/5FA470C7" Ref="#PWR?"  Part="1" 
 AR Path="/5F8C1FCE/5FA470C7" Ref="#PWR014"  Part="1" 
 AR Path="/5F874D38/5FA470C7" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 1600 6650 50  0001 C CNN
+F 0 "#PWR014" H 1600 6650 50  0001 C CNN
 F 1 "GNDPWR" H 1604 6696 50  0000 C CNN
 F 2 "" H 1600 6800 50  0001 C CNN
 F 3 "" H 1600 6800 50  0001 C CNN
@@ -266,7 +224,7 @@ P 1600 5650
 AR Path="/5FA470D1" Ref="#PWR?"  Part="1" 
 AR Path="/5F8C1FCE/5FA470D1" Ref="#PWR013"  Part="1" 
 AR Path="/5F874D38/5FA470D1" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 1600 5500 50  0001 C CNN
+F 0 "#PWR013" H 1600 5500 50  0001 C CNN
 F 1 "+24V" H 1615 5823 50  0000 C CNN
 F 2 "" H 1600 5650 50  0001 C CNN
 F 3 "" H 1600 5650 50  0001 C CNN
@@ -502,7 +460,7 @@ P 2150 4150
 AR Path="/5FA470F2" Ref="#PWR?"  Part="1" 
 AR Path="/5F8C1FCE/5FA470F2" Ref="#PWR011"  Part="1" 
 AR Path="/5F874D38/5FA470F2" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 2150 3950 50  0001 C CNN
+F 0 "#PWR011" H 2150 3950 50  0001 C CNN
 F 1 "GNDPWR" V 2154 4041 50  0000 R CNN
 F 2 "" H 2150 4100 50  0001 C CNN
 F 3 "" H 2150 4100 50  0001 C CNN
@@ -516,7 +474,7 @@ P 2150 4550
 AR Path="/5FA470EB" Ref="#PWR?"  Part="1" 
 AR Path="/5F8C1FCE/5FA470EB" Ref="#PWR012"  Part="1" 
 AR Path="/5F874D38/5FA470EB" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 2150 4400 50  0001 C CNN
+F 0 "#PWR012" H 2150 4400 50  0001 C CNN
 F 1 "+24V" V 2165 4678 50  0000 L CNN
 F 2 "" H 2150 4550 50  0001 C CNN
 F 3 "" H 2150 4550 50  0001 C CNN
@@ -583,8 +541,6 @@ Wire Wire Line
 	1100 5650 1250 5650
 Wire Wire Line
 	2300 1750 2800 1750
-Wire Wire Line
-	9150 2450 9050 2450
 Text HLabel 5750 2350 3    60   UnSpc ~ 0
 -15V
 Text HLabel 6250 2400 3    60   UnSpc ~ 0
@@ -642,8 +598,6 @@ Wire Notes Line
 	8250 750  8250 2750
 Wire Wire Line
 	5350 1650 8750 1650
-Wire Wire Line
-	9050 1850 9050 2450
 Wire Wire Line
 	5350 3900 8750 3900
 Text HLabel 5750 4400 1    60   UnSpc ~ 0
@@ -761,9 +715,6 @@ Text Notes 3550 5400 0    60   ~ 0
 +2.5V GEN
 Text Notes 6750 5750 0    60   ~ 0
 COM IS FLOATED\nON TOP OF HIGH VOLTAGE SUPPLY
-Connection ~ 9050 2450
-Wire Wire Line
-	9050 2750 9050 3700
 $Comp
 L Device:Q_PMOS_GDS Q4
 U 1 1 5F593C7A
@@ -790,4 +741,11 @@ F 3 "~" H 8950 3900 50  0001 C CNN
 	1    8950 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9050 1850 9050 2750
+Wire Wire Line
+	9850 2750 9050 2750
+Connection ~ 9050 2750
+Wire Wire Line
+	9050 2750 9050 3700
 $EndSCHEMATC
